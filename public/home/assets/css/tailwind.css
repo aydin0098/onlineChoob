@@ -1,0 +1,9 @@
+@import url("../../assets/fonts/font.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .tab-button.active {
+      @apply bg-yellow-500 text-stone-900;
+    }
+  }
